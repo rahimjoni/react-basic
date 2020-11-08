@@ -1,0 +1,24 @@
+.icon-left{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.icon-right{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.content{
+    position: absolute;
+    top: 280px;
+    left: 600px;
+}
+.winter{
+    background-color: orange;
+}
+.summer{
+    background-color: red;
+}
+.changeseacon{
+    background-color: orange !important;
+}

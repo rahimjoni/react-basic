@@ -7,6 +7,9 @@ import NewDemo from "./components/NewDemo";
 import JsonList from "./components/JsonList";
 import CompnetProps from "./components/CompnetProps";
 import Apporaval from "./components/Apporaval";
+import LocationApp from "./components/locationApp";
+import SeasionDis from "./components/SeasionDis";
+import Loader from "./components/loader"
 import React from "react";
 
 function App() {
@@ -18,12 +21,14 @@ function App() {
         {/* <NewDemo></NewDemo> */}
         {/*<JsonList></JsonList>*/}
 
-        <Apporaval>
+        {/*<Apporaval>
             <CompnetProps
                 Headcontent="Project Report - January"
                 content = "Leverage agile frameworks to provide a robust synopsis for high level overviews."
             />
-        </Apporaval>
+        </Apporaval>*/}
+
+        <LocationApp></LocationApp>
     </div>
   );
 }
